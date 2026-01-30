@@ -177,6 +177,15 @@ footer {
 	box-shadow: var(--box-shadow-light);
 	border-radius: 6px;
 	padding: 0.8rem;
+	transition: all 0.1s ease-in-out;
+}
+
+.link-button:hover {
+	filter: brightness(1.1);
+}
+
+.link-button:active {
+	filter: brightness(0.9);
 }
 
 .link-button > img {
