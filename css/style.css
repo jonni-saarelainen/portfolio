@@ -88,6 +88,7 @@ main {
 	background-repeat: repeat;
 	background-position: 16px 16px;
 	background-size: 432px 432px;
+	background-attachment: fixed;
 	min-height: 100vh;
 }
 
